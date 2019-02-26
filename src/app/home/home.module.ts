@@ -3,11 +3,16 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 
+import {MatGridListModule} from '@angular/material/grid-list';
+
+
 
 @NgModule({
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    MatGridListModule,
+    
   ],
   declarations: [HomeComponent]
 })

@@ -2,6 +2,11 @@
     background-image: url('https://www.diregiovani.it/wp-content/uploads/2018/03/dragon-ball-super.jpg');
     height: 50vh;
     background-size: cover;
+    z-index: -50;
+}
+
+.posizionamento {
+    margin-top: -13% !important;
 }
 
 .header {
@@ -136,8 +141,8 @@
         left: 50%;
         margin-left: -15px;
         margin-top: 15px;
-        -webkit-transform: translateZ(0);
-        -webkit-backface-visibility: hidden;
+        /* -webkit-transform: translateZ(0);
+        -webkit-backface-visibility: hidden; */
     }
 }
 
@@ -319,5 +324,9 @@
     .col-sm-12 {
         padding-right: 5px !important;
         padding-left: 5px !important;
+    }
+
+    .posizionamento {
+        margin-top: -50% !important
     }
 }
